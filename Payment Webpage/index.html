@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Payment Form </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+
+
+    <form action="" >
+
+      <h1 class="main">  Payment form </h1>
+      <hr>
+      <h2> Contact Information </h2>
+<h6>Required Fields are followed by * </h6>
+      <p>Name: * <input type="text" name="name" value="" required placeholder="Akash"></p>
+
+<fieldset>
+<legend>Gender</legend>
+      <p>
+        Male: <input type="radio" name="Gender" value="male">
+        Female: <input type="radio" name="Gender" value="female">
+        No disclose: <input type="radio" name="Gender" value="Others">
+      </p>
+</fieldset>
+        <p> Address : <textarea name="address" rows="10" cols="50" placeholder="Text"></textarea></p>
+        <p>Email: <input type="email" name="email" value="" placeholder="akashrathod@gmail.com"></p>
+        <p>Pincode: <input type="number" name="Pincode" value="" placeholder="581110"></p>
+
+<hr>
+         <h2>Payment Information </h2>
+<hr>
+<p>Card Type:
+<select class="card_type" name="card type" >
+    <option value="" label="--select a card type--"></option>
+    <option value="Visa" label="Visa"></option>
+    <option value="Master card" label="Master card"></option>
+    <option value="Rupay" label="Rupay"></option>
+</select>
+</p>
+<p>Card Number: <input type="number" name="card number" value=""></p>
+<p>Expiry Date: <input type="date" name="exp date" value="Date"></p>
+<p>CVV: <input type="password" name="cvv" value=""></p>
+<input type="submit" name="paynow" value="Pay Now">
+
+
+    </form>
+  </div>
+  </body>
+</html>
